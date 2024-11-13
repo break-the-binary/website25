@@ -1,11 +1,11 @@
 const config = {
   baseURL: "https://nouturnsign.github.io/icpc-w-btb-website/",
-  title: "Break the Binary 2024",
+  title: "Break the Binary 2025",
   keywords: "acm,icpc,ucla,competitive,puzzle,networking",
-  date: "Sunday, November 17, 2024",
+  date: "Saturday, January 25, 2025",
   time: "10 AM - 4:30 PM PT",
   datetimeLink:
-    "https://www.timeanddate.com/worldclock/fixedtime.html?msg=Break+the+Binary+2024&iso=20241117T10&p1=137&ah=6&am=30",
+    "https://www.timeanddate.com/worldclock/fixedtime.html?msg=Break+the+Binary+2025&iso=20250125T10&p1=137&ah=6&am=30",
   isSchedulePublished: false,
   isRegistrationPublished: false,
   isInterestPublished: true,
