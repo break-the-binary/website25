@@ -4,14 +4,16 @@ const config = {
   keywords: "acm,icpc,ucla,competitive,puzzle,networking",
   date: "Saturday, January 25, 2025",
   time: "10 AM - 4:30 PM PT",
+  registerDeadlineDate: "", // TODO: set register deadline
   datetimeLink:
     "https://www.timeanddate.com/worldclock/fixedtime.html?msg=Break+the+Binary+2025&iso=20250125T10&p1=137&ah=6&am=30",
   isSchedulePublished: false,
-  isRegistrationPublished: false,
-  isInterestPublished: true,
+  isRegistrationPublished: true,
+  isInterestPublished: false,
   isPuzzlePublished: false,
   scheduleLink: "", // TODO
-  registerLink: "", // TODO
+  registerLink:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdCh6CQXvFXwsBCe9trNCAceohInxmCzPGS-XLIJcTn_Ctfyw/viewform?usp=sharing",
   interestLink:
     "https://docs.google.com/forms/d/e/1FAIpQLSfGJIQRcJR0yAQzoLVhQqd9Db74COT8_vH-gvaDO5lK9TQwOg/viewform",
 };
