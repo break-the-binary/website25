@@ -1,7 +1,7 @@
 {
-  "name": "icpc-w-btb-website",
-  "version": "0.1.0",
-  "homepage": "https://nouturnsign.github.io/icpc-w-btb-website",
+  "name": "website25",
+  "version": "0.2.0",
+  "homepage": "https://break-the-binary.github.io/website25",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
