@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/icpc-w-btb-website/static/css/main.e6c13ad2.css",
+    "main.js": "/icpc-w-btb-website/static/js/main.d075ba3e.js",
+    "static/js/453.1558ce52.chunk.js": "/icpc-w-btb-website/static/js/453.1558ce52.chunk.js",
+    "index.html": "/icpc-w-btb-website/index.html",
+    "main.e6c13ad2.css.map": "/icpc-w-btb-website/static/css/main.e6c13ad2.css.map",
+    "main.d075ba3e.js.map": "/icpc-w-btb-website/static/js/main.d075ba3e.js.map",
+    "453.1558ce52.chunk.js.map": "/icpc-w-btb-website/static/js/453.1558ce52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d075ba3e.js"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "UCLA ACM Break the Binary",
+  "short_name": "BtB",
+  "lang": "en-US",
+  "description": "Official Website for UCLA ACM ICPC & W's Break the Binary",
+  "icons": [
+    {
+      "src": "assets/branding/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/branding/logo64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "assets/branding/logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "assets/branding/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/branding/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "assets/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF5479",
+  "background_color": "#ffffff"
+}
