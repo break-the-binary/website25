@@ -24,12 +24,12 @@ const HomeContainer = () => {
   return (
     <div className="home">
       <MetaHelmet description="Break the Binary: ACM ICPC and ACM W's problem-solving extravaganza!" />
-      <Box bg="#FCEDF3">
+      <Box bg="#25265E">
         {isMobile ? (
           <Image
             mx="auto"
             objectFit="fit"
-            src={process.env.PUBLIC_URL + "/assets/banner-mobile.png"}
+            src={process.env.PUBLIC_URL + "/assets/banner.png"}
             alt="Break the Binary Banner"
             width="100%"
           />
