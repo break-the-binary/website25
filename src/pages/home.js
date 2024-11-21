@@ -25,13 +25,23 @@ const HomeContainer = () => {
     <div className="home">
       <MetaHelmet description="Break the Binary: ACM ICPC and ACM W's problem-solving extravaganza!" />
       <Box bg="#3F3C7A">
-        <Image
-          mx="auto"
-          objectFit="fit"
-          src={process.env.PUBLIC_URL + "/assets/banner.svg"}
-          alt="Break the Binary Banner"
-          maxHeight="500px"
-        />
+        {isMobile ? (
+          <Image
+            mx="auto"
+            objectFit="fit"
+            src={process.env.PUBLIC_URL + "/assets/banner.png"}
+            alt="Break the Binary Banner"
+            width="100%"
+          />
+        ) : (
+          <Image
+            mx="auto"
+            objectFit="fit"
+            src={process.env.PUBLIC_URL + "/assets/banner.svg"}
+            alt="Break the Binary Banner"
+            maxHeight="500px"
+          />
+        )}
       </Box>
 
       <Stack spacing={0} textAlign="left">
