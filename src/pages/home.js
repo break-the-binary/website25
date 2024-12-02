@@ -166,6 +166,14 @@ const HomeContainer = () => {
                 label="Word Battle"
                 description="From Break the Binary 2023"
               />
+              <PuzzleLink
+                url={
+                  process.env.PUBLIC_URL +
+                  "/assets/sample-puzzles/solutions.txt"
+                }
+                label="Solutions"
+                description="Solutions to Child's Play and Word Battle"
+              />
             </Stack>
           </Container>
         </Box>
