@@ -21,5 +21,6 @@ jobs:
       - name: Check prettier
         uses: creyD/prettier_action@v4.3
         with:
+          prettier_version: 3.3.3
           prettier_options: --check .
           only_changed: True

@@ -1,0 +1,27 @@
+Child's Play
+------------
+answer: eclipse
+
+This puzzle is meant to mimic the child's toys where you put the triangle in the
+triangle-shaped hole, rectangle in the rectangle-shaped hole, and the pentagon
+in the pentagon-shaped hole. When you put the "circle" in the "circle-shaped
+hole," you get the moon covering the sun, which is a (solar) eclipse!
+
+Word Battle
+-----------
+answer: WHEREISTHERENOWAR (or Ba Sing Se)
+
+This puzzle is based on Battleship. In Battleship, there is one ship of length
+5, one ship of length 4, two ships of length 3, and one ship of length 2. Based
+on the clues given, you can see that the following ships must be in the grid:
+
+OWAR | HEREN | ST | WHE
+
+The last ship of 3 has 3 options:
+
+REI/KKR/KRE
+
+Via brute force, we can see that the final word must be WHE REI ST HEREN OWAR
+i.e. WHEREISTHERENOWAR (where is there no war). Last year's theme was Avatar
+the Last Airbender, and a quick Google search yields the saying "There is no
+war in Ba Sing Se" from the show, giving the final answer as Ba Sing Se.

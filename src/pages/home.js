@@ -14,6 +14,7 @@ import Container from "components/container";
 import EmphasisLinkButton from "components/emphasislinkbutton";
 import MetaHelmet from "components/metahelmet";
 import ResponsiveTwoColumns from "components/responsivetwocolumns";
+import PuzzleLink from "components/puzzlelink";
 import Schedule from "components/schedule";
 import Sponsor from "components/sponsor";
 import { config } from "data";
@@ -148,13 +149,45 @@ const HomeContainer = () => {
         <Box backgroundColor="brand.100">
           <Container narrow my>
             <Stack p={3} spacing={3} align="center">
+              <Heading as="h1">Sample Puzzles</Heading>
+              <PuzzleLink
+                url={
+                  process.env.PUBLIC_URL +
+                  "/assets/sample-puzzles/childs_play.pdf"
+                }
+                label="Child's Play"
+                description="From Break the Binary 2023"
+              />
+              <PuzzleLink
+                url={
+                  process.env.PUBLIC_URL +
+                  "/assets/sample-puzzles/word_battle.pdf"
+                }
+                label="Word Battle"
+                description="From Break the Binary 2023"
+              />
+              <PuzzleLink
+                url={
+                  process.env.PUBLIC_URL +
+                  "/assets/sample-puzzles/solutions.txt"
+                }
+                label="Solutions"
+                description="Solutions to Child's Play and Word Battle"
+              />
+            </Stack>
+          </Container>
+        </Box>
+
+        <Box backgroundColor="brand.50">
+          <Container narrow my>
+            <Stack p={3} spacing={3} align="center">
               <Heading as="h1">Schedule</Heading>
               <Schedule fontSize={["md", "lg"]} />
             </Stack>
           </Container>
         </Box>
 
-        <Box backgroundColor="brand.50">
+        <Box backgroundColor="brand.100">
           <Container narrow my>
             <Stack p={3} spacing={3} textAlign="center" align="center">
               <Heading as="p">Sponsored by</Heading>
