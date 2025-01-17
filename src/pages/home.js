@@ -5,8 +5,11 @@ import {
   Heading,
   Image,
   Link,
+  List,
+  ListItem,
   Stack,
   Text,
+  VStack,
   useMediaQuery,
 } from "@chakra-ui/react";
 
@@ -135,13 +138,26 @@ const HomeContainer = () => {
               imgAlt="The participants of Break the Binary are lined up for a group picture."
             >
               <Heading>Food and Prizes</Heading>
-              <Text textAlign="left" fontSize={["sm", "md"]}>
-                <br />
-                Get ready for more than just coding! 🎉 We've got delicious food
-                🥳, awesome prizes 🎁, and tons of fun lined up for you! 🍕🎮
-                Whether you're here for the puzzles or the party, there's
-                something for everyone to enjoy!
-              </Text>
+              <VStack textAlign="left" fontSize={["sm", "md"]}>
+                <Text>
+                  <br />
+                  Get ready for more than just coding! 🎉 We've got delicious
+                  food 🥳, awesome prizes 🎁, and tons of fun lined up for you!
+                  🍕🎮 Whether you're here for the puzzles or the party, there's
+                  something for everyone to enjoy!
+                </Text>
+                <List>
+                  <ListItem>
+                    1st place: <strong>$200</strong> Amazon gift card
+                  </ListItem>
+                  <ListItem>
+                    2nd place: <strong>$160</strong> Amazon gift card
+                  </ListItem>
+                  <ListItem>
+                    3rd place: <strong>$120</strong> Amazon gift card
+                  </ListItem>
+                </List>
+              </VStack>
             </ResponsiveTwoColumns>
           </Container>
         </Box>
