@@ -7,6 +7,7 @@ const config = {
   registerDeadlineDate: "event day (walk-ins also welcome!)",
   datetimeLink:
     "https://www.timeanddate.com/worldclock/fixedtime.html?msg=Break+the+Binary+2025&iso=20250125T10&p1=137&ah=6&am=30",
+  location: "De Neve Plaza Room, The Hill",
   isSchedulePublished: false,
   isRegistrationPublished: true,
   isInterestPublished: false,

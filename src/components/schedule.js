@@ -1,6 +1,6 @@
 import { Box, List, ListIcon, ListItem, Text } from "@chakra-ui/react";
 import { FaAward, FaClock, FaComments, FaUtensils } from "react-icons/fa";
-import { FaCircleCheck } from "react-icons/fa6";
+import { FaCircleCheck, FaLocationDot } from "react-icons/fa6";
 import { GiMicrophone } from "react-icons/gi";
 import { IoExtensionPuzzle } from "react-icons/io5";
 
@@ -23,11 +23,18 @@ const Schedule = ({ fontSize }) => {
     <Box fontSize={fontSize}>
       <List as="ul" fontSize={["sm", "md"]} fontWeight="bold">
         {config.isRegistrationPublished && (
-          <ScheduleItem
-            icon={FaClock}
-            label="Register By:"
-            value={config.registerDeadlineDate}
-          />
+          <>
+            <ScheduleItem
+              icon={FaClock}
+              label="Register By:"
+              value={config.registerDeadlineDate}
+            />
+            <ScheduleItem
+              icon={FaLocationDot}
+              label="Location:"
+              value={config.location}
+            />
+          </>
         )}
         <ScheduleItem
           icon={FaCircleCheck}
